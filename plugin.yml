@@ -1,0 +1,17 @@
+name: SCore
+version: 1.0Beta
+description: Professional plugin.
+author: Siempre 
+website: https://arcticwolf.ru/
+main: com.arcticwolf.score.SCore
+depend: [WorldGuard, Essentials, PermissionsEx, Vault]
+commands:
+  score:
+    description: Get info a player
+    permission: arcticwolf.score.score
+  scorev:
+    description: Get info a plugin
+    permission: arcticwolf.score.version
+  checkscore:
+    description: Get plugin update
+    permission: arcticwolf.score.checkv
